@@ -1,4 +1,4 @@
-for (var i = 0; i < array_length(menu_opcoes); i++) {
+if  (room = a_menu) { for (var i = 0; i < array_length(menu_opcoes); i++) {
     var pos_x = 375;
     var pos_y = 460 + i * 80;
 
@@ -16,9 +16,9 @@ for (var i = 0; i < array_length(menu_opcoes); i++) {
     // Zoom suave
     menu_zoom[i] = lerp(menu_zoom[i], menu_zoom_target[i], zoom_speed);
     box_zoom[i] = lerp(box_zoom[i], box_zoom_target[i], zoom_speed);
-}
 
-if (menu_hover != -1 && (mouse_check_button_pressed(mb_left) || keyboard_check_pressed(vk_enter))) {
+
+if (menu_hover != -1 && (mouse_check_button_pressed(mb_any))) || (keyboard_check_pressed(vk_enter)){
     switch (menu_hover) {
         case 0: // JOGAR
             room_goto(b_fases); // substitua pelo nome da sua room de jogo
@@ -26,5 +26,4 @@ if (menu_hover != -1 && (mouse_check_button_pressed(mb_left) || keyboard_check_p
         case 1: // CRÉDITOS
             room_goto(h_creditos); // substitua pelo nome da sua room de créditos
             break;
-    }
-}
+    }}}} else {instance_destroy();}
