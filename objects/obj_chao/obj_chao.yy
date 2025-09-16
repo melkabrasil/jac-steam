@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_jac",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_chao",
+  "eventList":[],
   "managed":true,
-  "name":"obj_jac",
+  "name":"obj_chao",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -29,8 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"spr_chao",
+    "path":"sprites/spr_chao/spr_chao.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
