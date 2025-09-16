@@ -1,5 +1,5 @@
 if (position_meeting(mouse_x, mouse_y, id)) {
-   if mouse_check_button_pressed(mb_any){
+   if mouse_check_button_pressed(mb_right){
    room_goto(d_technology);}
 	zoom_target = 1; // Zoom quando o mouse está em cima
 } else {
