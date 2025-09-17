@@ -9,8 +9,8 @@
   "name":"obj_back_science",
   "overriddenProperties":[],
   "parent":{
-    "name":"Backgrounds Fases",
-    "path":"folders/Objetos/fases/Backgrounds Fases.yy",
+    "name":"Objects Science",
+    "path":"folders/Objetos/fases/Objects Science.yy",
   },
   "parentObjectId":null,
   "persistent":false,
