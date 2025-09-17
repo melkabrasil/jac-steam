@@ -1,0 +1,1 @@
+fator_scroll = 20;

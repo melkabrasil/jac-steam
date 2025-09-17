@@ -8,7 +8,7 @@ if (position_meeting(mouse_x, mouse_y, id)) {
 image_xscale = lerp(image_xscale, zoom_target, zoom_speed);
 image_yscale = lerp(image_yscale, zoom_target, zoom_speed);
 
-if (mouse_check_button_pressed(mb_any)) 
+if (mouse_check_button_pressed(mb_left)) 
 {
 	room_goto(f_arts);
 }
