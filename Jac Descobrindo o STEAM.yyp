@@ -90,7 +90,6 @@
     {"id":{"name":"spr_science","path":"sprites/spr_science/spr_science.yy",},},
     {"id":{"name":"spr_technology","path":"sprites/spr_technology/spr_technology.yy",},},
     {"id":{"name":"spr_tef1","path":"sprites/spr_tef1/spr_tef1.yy",},},
-    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

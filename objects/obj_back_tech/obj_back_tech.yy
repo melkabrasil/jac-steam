@@ -9,8 +9,8 @@
   "name":"obj_back_tech",
   "overriddenProperties":[],
   "parent":{
-    "name":"Backgrounds Fases",
-    "path":"folders/Objetos/fases/Backgrounds Fases.yy",
+    "name":"fases",
+    "path":"folders/Objetos/fases.yy",
   },
   "parentObjectId":null,
   "persistent":false,
