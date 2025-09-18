@@ -8,3 +8,8 @@ obstacles = [
     obj_placa_9458_1,
     obj_placa_9458_2,
 ];
+
+/*global.goFast = 17;
+global.goFastAsteroid = 12;
+
+alarm[0] = room_speed*5;*/

@@ -4,4 +4,4 @@ x += hsp;
 if (x < -sprite_width) {
     instance_destroy();
 }
-draw_self(); // força a renderização
+

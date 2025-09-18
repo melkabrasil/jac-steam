@@ -17,3 +17,5 @@ show_debug_message("Spawnando: " + string(obj_to_spawn));
     // Cria o obstáculo na layer "Instances" (ou a layer da sua room)
     instance_create_layer(sx, sy, "Instances", obj_to_spawn);
 }
+
+
