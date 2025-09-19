@@ -1,1 +1,1 @@
-fator_scroll = 20;
+fator_scroll = 1;

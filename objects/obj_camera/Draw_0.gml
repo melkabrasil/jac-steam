@@ -1,1 +1,0 @@
-draw_background_stretched(background0, 0, 0, display_get_width(), display_get_height());
