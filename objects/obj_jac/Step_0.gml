@@ -1,6 +1,6 @@
 /// função colisao_obstaculo(x, y)
 function colisao_obstaculo(x, y) {
-    return place_meeting(x, y, obj_chao) || place_meeting(x, y, obj_obs_tech);
+    return place_meeting(x, y, obj_chao)  || place_meeting(x, y, obj_obs_tech);
 }
 
 // Movimento horizontal
@@ -48,3 +48,35 @@ if (keyboard_check_pressed(vk_up) && no_chao) {
 
 // Espelhar sprite conforme direção
 image_xscale = direcao;
+
+if (place_meeting(x, y, obj_obs_tech_1)) {
+    piscar = true;
+    if (giro_total < giro_alvo) {
+    image_angle += giro_velocidade;
+    giro_total += giro_velocidade;
+	vel_y = pulo;
+	physics_active = false
+}
+	
+    tempo_piscar = 10;
+}
+
+// Efeito de piscar e voltar
+if (piscar) {
+    tempo_piscar -= 1;
+    image_alpha = (tempo_piscar mod 6 < 3) ? 0.3 : 1;
+
+    if (tempo_piscar <= 0) {
+        piscar = false;
+        image_alpha = 1;
+        x = x_inicial;
+        y = y_inicial;
+		image_angle = 0;
+		giro_total = 0;
+		
+    }
+}
+
+if (x = x_inicial) && (y = y_inicial) {
+physics_active = true;
+}

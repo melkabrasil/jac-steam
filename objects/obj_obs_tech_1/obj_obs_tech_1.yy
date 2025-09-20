@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obs_tech",
-  "eventList":[],
+  "%Name":"obj_obs_tech_1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_obs_tech",
+  "name":"obj_obs_tech_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects Tech",
@@ -28,9 +30,12 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_obs_tech",
-    "path":"sprites/spr_obs_tech/spr_obs_tech.yy",
+    "name":"spr_obs_tech_1",
+    "path":"sprites/spr_obs_tech_1/spr_obs_tech_1.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_obs_tech_1",
+    "path":"sprites/spr_obs_tech_1/spr_obs_tech_1.yy",
+  },
   "visible":true,
 }
