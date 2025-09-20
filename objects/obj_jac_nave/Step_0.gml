@@ -18,7 +18,11 @@ if (keyboard_check(vk_down)) {
 }
 
 // Limitar a nave dentro da tela
-if (x < 0) x = 0;
+/*if (x < 0) x = 0;
 if (x > room_width - sprite_width) x = room_width - sprite_width;
 if (y < 0) y = 0;
-if (y > room_height - sprite_height) y = room_height - sprite_height;
+if (y > room_height - sprite_height) y = room_height - sprite_height;*/
+
+// Limite para não sair da tela
+y = clamp(y, sprite_height / 2, room_height - sprite_height / 2);
+
