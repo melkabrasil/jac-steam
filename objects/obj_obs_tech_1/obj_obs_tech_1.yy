@@ -28,14 +28,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"spr_obs_tech_1",
     "path":"sprites/spr_obs_tech_1/spr_obs_tech_1.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_obs_tech_1",
-    "path":"sprites/spr_obs_tech_1/spr_obs_tech_1.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

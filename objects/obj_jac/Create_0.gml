@@ -2,7 +2,7 @@ image_angle = 0
 vel_x = 4;
 vel_y = 0;
 gravidade = 0.5;
-pulo = -15;
+pulo = -14;
 no_chao = false;
 direcao = 1; // 1 = direita, -1 = esquerda
 x_inicial = x;

@@ -4,15 +4,15 @@ function colisao_obstaculo(x, y) {
 }
 
 // Movimento horizontal
-if (keyboard_check(vk_right)) {
+if (keyboard_check(vk_right)) or (keyboard_check(ord("D"))) {
     direcao = 1;
     sprite_index = spr_jac_walk;
 
     if (!colisao_obstaculo(x + vel_x, y)) {
         x += vel_x;
-    }
-}
-else if (keyboard_check(vk_left)) {
+    }}
+
+else if (keyboard_check(vk_left)) or (keyboard_check(ord("A"))) {
     direcao = -1;
     sprite_index = spr_jac_walk;
 
@@ -41,7 +41,7 @@ if (!colisao_obstaculo(x, y + vel_y)) {
 }
 
 // Pulo
-if (keyboard_check_pressed(vk_up) && no_chao) {
+if (keyboard_check_pressed(vk_up)) && no_chao or (keyboard_check_pressed(ord("W")) && no_chao) {
     vel_y = pulo;
     sprite_index = spr_jac_idle;
 }
