@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obs_tech",
-    "path":"sprites/spr_obs_tech/spr_obs_tech.yy",
+    "name":"spr_obs_tech_2",
+    "path":"sprites/spr_obs_tech_2/spr_obs_tech_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

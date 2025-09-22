@@ -1,6 +1,6 @@
 /// função colisao_obstaculo(x, y)
 function colisao_obstaculo(x, y) {
-    return place_meeting(x, y, obj_chao)  || place_meeting(x, y, obj_obs_tech);
+    return place_meeting(x, y, obj_chao)  || place_meeting(x, y, obj_obs_tech) || place_meeting(x, y, obj_obs_tech_2);
 }
 
 // Movimento horizontal
@@ -41,7 +41,7 @@ if (!colisao_obstaculo(x, y + vel_y)) {
 }
 
 // Pulo
-if (keyboard_check_pressed(vk_up)) && no_chao or (keyboard_check_pressed(ord("W")) && no_chao) {
+if (keyboard_check_pressed(vk_up)) && no_chao or (keyboard_check_pressed(ord("W")) && no_chao) or (keyboard_check_pressed(vk_space)) && no_chao {
     vel_y = pulo;
     sprite_index = spr_jac_idle;
 }
@@ -67,16 +67,22 @@ if (piscar) {
     image_alpha = (tempo_piscar mod 6 < 3) ? 0.3 : 1;
 
     if (tempo_piscar <= 0) {
+		giro_total = 0;
+		image_alpha = 1;
+		image_angle = 0;
         piscar = false;
-        image_alpha = 1;
+		tentativas += 1;
         x = x_inicial;
         y = y_inicial;
-		image_angle = 0;
-		giro_total = 0;
+
 		
     }
 }
 
 if (x = x_inicial) && (y = y_inicial) {
 physics_active = true;
+}
+
+if (place_meeting(x, y + 1, obj_obs_tech_2)) {
+    x += obj_obs_tech_2.velocidade * obj_obs_tech_2.direcao;
 }
