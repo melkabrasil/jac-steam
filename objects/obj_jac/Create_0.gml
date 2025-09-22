@@ -10,6 +10,7 @@ physics_active = true;
 piscar = false;
 pulo = -12;
 sprite_index = spr_jac_idle;
+star = 0;
 tempo_piscar = 0;
 tentativas = 1;
 vel_x = 4;

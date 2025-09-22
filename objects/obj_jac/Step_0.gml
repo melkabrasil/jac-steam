@@ -74,7 +74,6 @@ if (piscar) {
 		tentativas += 1;
         x = x_inicial;
         y = y_inicial;
-
 		
     }
 }
@@ -85,4 +84,8 @@ physics_active = true;
 
 if (place_meeting(x, y + 1, obj_obs_tech_2)) {
     x += obj_obs_tech_2.velocidade * obj_obs_tech_2.direcao;
+}
+
+if (place_meeting(x, y, obj_star_tech)) {
+    star += 1
 }
