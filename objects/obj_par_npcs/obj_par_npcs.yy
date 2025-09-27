@@ -1,21 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bill",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_par_npcs",
+  "eventList":[],
   "managed":true,
-  "name":"obj_bill",
+  "name":"obj_par_npcs",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects Tech",
-    "path":"folders/Objetos/fases/Objects Tech.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_npcs",
-    "path":"objects/obj_par_npcs/obj_par_npcs.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -32,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bill",
-    "path":"sprites/spr_bill/spr_bill.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -49,6 +49,21 @@ if (keyboard_check_pressed(vk_up)) && no_chao or (keyboard_check_pressed(ord("W"
 // Espelhar sprite conforme direção
 image_xscale = direcao;
 
+#region diálogo
+
+
+if distance_to_object(obj_par_npcs) <= 10{
+if keyboard_check_pressed(ord("Z")) {
+ var _npc = instance_nearest(x, y, obj_par_npcs);
+ var _dialogo = instance_create_layer(x, y, "Instances_talknfade", obj_dialogo);
+ if object_exists( obj_dialogo) {
+	 
+ }
+ _dialogo.npc_nome = _npc.nome;
+ }
+}
+#endregion
+
 if (place_meeting(x, y, obj_obs_tech_1)) {
     piscar = true;
     if (giro_total < giro_alvo) {

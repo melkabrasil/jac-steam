@@ -1,13 +1,15 @@
 function scr_textos(){
 	switch npc_nome{
-		
-	case "":
-	break;
 
 	case "Bill":
-	ds_grid_add_text("texto texto", spr_bill_1, 0, "Bill");
+	ds_grid_add_text("Falas do Jac!!!!!", 1, "Jac");
+	ds_grid_add_text("Falas do Billkdgcbjsnk...", 0, "Bill");
 	break;
-	}}
+		
+	
+}
+}
+
 function ds_grid_add_row(){
 	
 	var _grid = argument[0];
@@ -22,5 +24,4 @@ function ds_grid_add_text (){
 	_grid[# 0, _y] = argument[0];
 	_grid[# 1, _y] = argument[1];
 	_grid[# 2, _y] = argument[2];
-	_grid[# 3, _y] = argument[3];
 }

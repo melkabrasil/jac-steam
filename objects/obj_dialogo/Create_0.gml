@@ -1,12 +1,11 @@
 enum Infos {
-	 Texto,
-	 Retrato,
-	 Lado,
-	 Nome
-}
+	Texto,
+	Lado,
+	Nome
+};
 
 npc_nome = "";
-texto_grid = ds_grid_create( 4, 0 );
+texto_grid = ds_grid_create(3, 0 );
 pagina = 0;
 inicializar = false;
 caractere = 0;
