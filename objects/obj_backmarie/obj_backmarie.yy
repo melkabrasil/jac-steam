@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gate",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_jac_nave","path":"objects/obj_jac_nave/obj_jac_nave.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_backmarie",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gate",
+  "name":"obj_backmarie",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects Science",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gate",
-    "path":"sprites/spr_gate/spr_gate.yy",
+    "name":"spr_backmarie",
+    "path":"sprites/spr_backmarie/spr_backmarie.yy",
   },
   "spriteMaskId":null,
   "visible":true,
