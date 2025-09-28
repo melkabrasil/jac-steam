@@ -5,3 +5,7 @@ x -= 2;
 if (x <= -sprite_width) {
     x += sprite_width;
 }
+
+if (!global.portal_ativo) {
+    x -= vel; // ou qualquer lógica de movimento
+}

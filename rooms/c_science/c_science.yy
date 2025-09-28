@@ -9,6 +9,8 @@
     {"name":"inst_64B02A67","path":"rooms/c_science/c_science.yy",},
     {"name":"inst_7C05EFD9","path":"rooms/c_science/c_science.yy",},
     {"name":"inst_7D282BD3","path":"rooms/c_science/c_science.yy",},
+    {"name":"inst_3858825A","path":"rooms/c_science/c_science.yy",},
+    {"name":"inst_34745073","path":"rooms/c_science/c_science.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -16,6 +18,8 @@
         {"$GMRInstance":"v2","%Name":"inst_7D282BD3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D282BD3","objectId":{"name":"obj_back_science","path":"objects/obj_back_science/obj_back_science.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0208334,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_64B02A67","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64B02A67","objectId":{"name":"obj_jac_nave","path":"objects/obj_jac_nave/obj_jac_nave.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":928.0,},
         {"$GMRInstance":"v2","%Name":"inst_7C05EFD9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C05EFD9","objectId":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1440.0,"y":480.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3858825A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3858825A","objectId":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":128.0,},
+        {"$GMRInstance":"v2","%Name":"inst_34745073","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34745073","objectId":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":160.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

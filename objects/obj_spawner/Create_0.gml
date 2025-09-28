@@ -6,7 +6,8 @@ obstacles = [
     obj_asteroide_1,
     obj_asteroide_2,
     obj_placa_9458_1,
-    obj_placa_9458_2,
+    //obj_placa_9458_2,
+	obj_atomo,
 ];
 
 /*global.goFast = 17;
