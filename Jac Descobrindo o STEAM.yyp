@@ -13,7 +13,7 @@
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Curvas da animação/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Curvas da animação","folderPath":"folders/Curvas da animação.yy","name":"Curvas da animação","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensões","folderPath":"folders/Extensões.yy","name":"Extensões","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -46,6 +46,7 @@
   "name":"Jac Descobrindo o STEAM",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
     {"id":{"name":"obj_a_science","path":"objects/obj_a_science/obj_a_science.yy",},},
     {"id":{"name":"obj_asteroide_1","path":"objects/obj_asteroide_1/obj_asteroide_1.yy",},},
     {"id":{"name":"obj_asteroide_2","path":"objects/obj_asteroide_2/obj_asteroide_2.yy",},},

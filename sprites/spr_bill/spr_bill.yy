@@ -3,7 +3,7 @@
   "%Name":"spr_bill",
   "bboxMode":0,
   "bbox_bottom":185,
-  "bbox_left":0,
+  "bbox_left":5,
   "bbox_right":106,
   "bbox_top":4,
   "collisionKind":1,

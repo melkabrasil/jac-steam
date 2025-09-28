@@ -4,3 +4,4 @@ draw_set_color(c_white);
 draw_text(102, 32, "Tentativa: " + string(tentativas));
 draw_text(110, 68, "Microchips: " + string(star));
 }
+
