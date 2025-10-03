@@ -2,7 +2,7 @@ function scr_textos(){
 	switch npc_nome{
 
 	case "Bill":
-	ds_grid_add_text("Parabéns! Após coletar 3 microchips em x tentativas, Jac encontra o técnico de  informática Bill!", 1, "");
+	ds_grid_add_text("Parabéns! Após coletar microchips, Jac encontra o técnico de  informática Bill!", 1, "");
     ds_grid_add_text(	"Explorando o ambiente, Jac pratica a ''inovação'', usando a determinação para continuar a aventura com STEAM.", 1, "");
 	ds_grid_add_text("Bill, o que a letra ''T'' representa no STEAM? Pode me explicar por que é importante para o mundo?", 1, "Jac");
 	ds_grid_add_text("Fico feliz em receber essa pergunta, Jac! A letra 'T' representa Technology, que é a Tecnologia em nosso idioma.", 0, "Bill");
