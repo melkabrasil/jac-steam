@@ -109,4 +109,10 @@ if (!colisao_obstaculo(x, y + vel_y)) {
         if (place_meeting(x, y, obj_star_tech)) {
             star += 1;
         }
+		
+		if distance_to_object(obj_par_npcs) <= 10 && keyboard_check_pressed(ord("Z")) {
+    contador_z += 1; }else{ if distance_to_object(obj_par_npcs) >= 10{
+		contador_z = 0;
+	}}
+
     

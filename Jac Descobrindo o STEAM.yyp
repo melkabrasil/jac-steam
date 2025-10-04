@@ -14,6 +14,7 @@
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"c_backscience","folderPath":"folders/Cenas/c_backscience.yy","name":"c_backscience","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"d_backtechnology","folderPath":"folders/Cenas/d_backtechnology.yy","name":"d_backtechnology","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Curvas da animação","folderPath":"folders/Curvas da animação.yy","name":"Curvas da animação","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Curvas da animação/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensões","folderPath":"folders/Extensões.yy","name":"Extensões","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -86,6 +87,7 @@
     {"id":{"name":"c_science","path":"rooms/c_science/c_science.yy",},},
     {"id":{"name":"d_technology","path":"rooms/d_technology/d_technology.yy",},},
     {"id":{"name":"e_engineering","path":"rooms/e_engineering/e_engineering.yy",},},
+    {"id":{"name":"emblematech","path":"rooms/emblematech/emblematech.yy",},},
     {"id":{"name":"f_arts","path":"rooms/f_arts/f_arts.yy",},},
     {"id":{"name":"g_math","path":"rooms/g_math/g_math.yy",},},
     {"id":{"name":"h_creditos","path":"rooms/h_creditos/h_creditos.yy",},},
@@ -133,6 +135,7 @@
     {"roomId":{"name":"g_math","path":"rooms/g_math/g_math.yy",},},
     {"roomId":{"name":"h_creditos","path":"rooms/h_creditos/h_creditos.yy",},},
     {"roomId":{"name":"c_lab_marie","path":"rooms/c_lab_marie/c_lab_marie.yy",},},
+    {"roomId":{"name":"emblematech","path":"rooms/emblematech/emblematech.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -40,8 +40,8 @@
   ],
   "name":"d_technology",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"d_backtechnology",
+    "path":"folders/Cenas/d_backtechnology.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
