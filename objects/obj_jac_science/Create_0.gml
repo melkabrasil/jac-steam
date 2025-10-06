@@ -1,1 +1,20 @@
-vel = 5;
+direcao = 1; // 1 = direita, -1 = esquerda
+giro_alvo = 85; // graus que você quer girar
+giro_total = 0;
+giro_velocidade =10; // graus por frame
+gravidade = 0.5;
+image_angle = 0
+image_speed = 0.2; // velocidade da animação
+no_chao = false;
+physics_active = true;
+piscar = false;
+pulo = -12;
+sprite_index = spr_jac_idle;
+star = 0;
+tempo_piscar = 0;
+tentativas = 1;
+vel_x = 4;
+vel_y = 0;
+x_inicial = x;
+y_inicial = y;
+contador_z = 0;
