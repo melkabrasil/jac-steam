@@ -18,3 +18,4 @@ vel_y = 0;
 x_inicial = x;
 y_inicial = y;
 contador_z = 0;
+contador_space = 0;

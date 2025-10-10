@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_e_math",
+  "%Name":"obj_emblema_tech",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_e_math",
+  "name":"obj_emblema_tech",
   "overriddenProperties":[],
   "parent":{
-    "name":"fases",
-    "path":"folders/Objetos/fases.yy",
+    "name":"Objects Tech",
+    "path":"folders/Objetos/fases/Objects Tech.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_math",
-    "path":"sprites/spr_math/spr_math.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
