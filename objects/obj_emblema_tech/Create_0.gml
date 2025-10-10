@@ -1,7 +1,9 @@
 mensagem = "Você mandou muito bem na fase Tech!";
-botao_visivel = true;
+botao_visivel = false;
 
-// Confetes
+fade_alpha = 0; // começa invisível
+fade_vel = 0.02;
+
 confetes = [];
 for (var i = 0; i < 50; i++) {
     var c = {
