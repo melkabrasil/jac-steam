@@ -1,9 +1,9 @@
 if (texto_visivel) {
     draw_set_color(c_olive);
     draw_set_font(fnt_menu);
-
+	draw_set_halign(fa_left);
     // Desenha o texto com escala usando draw_text_transformed
-    draw_text_transformed(x - 160, y + 80, texto, escala_atual, escala_atual, 0);
+    draw_text_transformed(x - 200, y + 80, texto, escala_atual, escala_atual, 0);
 }
 
 if (mostrar_imagem) {

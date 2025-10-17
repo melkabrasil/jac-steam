@@ -7,7 +7,7 @@ var largura = string_width(texto) * escala_atual;
 var altura = string_height(texto) * escala_atual;
 
 // Verifica se o mouse está sobre o texto deslocado
-mouse_sobre = (mx > x - 160) && (mx < x - 160 + largura) &&
+mouse_sobre = (mx > x - 200) && (mx < x - 200 + largura) &&
               (my > y + 80) && (my < y + altura + 80);
 
 // Define a escala alvo com base no mouse

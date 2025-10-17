@@ -1,5 +1,4 @@
 fonte_base = fnt_menu;
-
 texto = "Céu";
 texto_visivel = true;
 mostrar_imagem = false;
@@ -9,4 +8,3 @@ imagem_trocada = false;
 escala_atual = 0.9;
 escala_alvo = 0.8;
 
-// Fonte base
