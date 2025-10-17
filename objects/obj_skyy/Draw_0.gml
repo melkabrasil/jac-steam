@@ -7,5 +7,12 @@ if (texto_visivel) {
 }
 
 if (mostrar_imagem) {
-    draw_sprite(spr_sky, 0, x, y);
+    if (!imagem_trocada) {
+        draw_sprite(spr_skya, 0, x - 832, y - 128);
+				depth = -1000; 
+    } else {
+        draw_sprite(spr_sky, 0, x, y);
+				depth = -13;
+				global.skyy = true;
+    }
 }

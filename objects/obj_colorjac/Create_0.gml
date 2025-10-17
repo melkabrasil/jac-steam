@@ -3,6 +3,7 @@ fonte_base = fnt_menu;
 texto = "Jac";
 texto_visivel = true;
 mostrar_imagem = false;
+imagem_trocada = false;
 mouse_sobre = false;
 
 // Escala animada do texto

@@ -3,7 +3,7 @@
   "%Name":"spr_obs_tech_2",
   "bboxMode":0,
   "bbox_bottom":711,
-  "bbox_left":448,
+  "bbox_left":406,
   "bbox_right":2747,
   "bbox_top":156,
   "collisionKind":4,

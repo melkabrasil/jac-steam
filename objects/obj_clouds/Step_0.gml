@@ -24,6 +24,11 @@ if (mouse_sobre && (mouse_check_button_pressed(mb_left) ||
 					gamepad_button_check_pressed(0, gp_face2) ||
 					gamepad_button_check_pressed(0, gp_face3) ||
 					gamepad_button_check_pressed(0, gp_face4))) {
+
     texto_visivel = false;
     mostrar_imagem = true;
+}
+
+if (keyboard_check_pressed(vk_space) && mostrar_imagem && !imagem_trocada) {
+    imagem_trocada = true;
 }

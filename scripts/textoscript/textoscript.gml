@@ -10,7 +10,14 @@ function scr_textos(){
 	
 
 	break;
-		
+	
+	case "Engrenagens":
+	ds_grid_add_text("Engrenagens trabalham juntas para fazer máquinas funcionarem. É como o trabalho em equipe!", 1, "Jac");
+	ds_grid_add_text("Fico feliz em receber essa pergunta, Jac! A letra ''T'' representa Technology, que é a Tecnologia em nosso idioma.", 0, "Bill");
+	ds_grid_add_text("A tecnologia permite que nós acessemos uma biblioteca de informações, conversemos com nossos amigos e familiares, e é capaz de transformar o futuro com novas inovações.", 0, "Bill");
+	
+
+	break;
 	
 }
 }

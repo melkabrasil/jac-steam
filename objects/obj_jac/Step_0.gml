@@ -10,7 +10,7 @@ function colisao_obstaculo(x, y) {
 if (distance_to_object(obj_par_npcs) <= 10) {
     sprite_index = spr_jac_idle;
 
-    if (keyboard_check_pressed(ord("Z"))) {
+    if (keyboard_check_pressed(ord("Z"))) && star = 3 {
         var _npc = instance_nearest(x, y, obj_par_npcs);
         var _dialogo = instance_create_layer(x, y, "Instances_talknfade", obj_dialogo);
 

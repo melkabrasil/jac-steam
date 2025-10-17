@@ -27,3 +27,7 @@ if (mouse_sobre && (mouse_check_button_pressed(mb_left) ||
     texto_visivel = false;
     mostrar_imagem = true;
 }
+
+if (keyboard_check_pressed(vk_space) && mostrar_imagem && !imagem_trocada) {
+    imagem_trocada = true;
+}
