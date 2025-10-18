@@ -19,6 +19,14 @@ function scr_textos(){
 
 	break;
 	
+	case "Marie":
+	ds_grid_add_text("Parabéns! Após coletar todos os átomos, Jac encontra a cientista Marie em seu laboratório!", 1, "");
+	ds_grid_add_text("O pequeno Jac percebeu que estava usando o valor da ''Descoberta'', uma vez que explorava suas ideias e habilidades enquanto descobria mais sobre o STEAM!", 1, "");
+	ds_grid_add_text("No início da visita, logo perguntou a ela sobre a sua principal dúvida.", 1, "");
+	ds_grid_add_text("Marie, o que a letra ''S'' representa no STEAM? Poderia me explicar por que é importante para o mundo?", 1, "Jac");
+	ds_grid_add_text("Que pergunta incrível, Jac! O ''S'' é sobre Science, que traduzindo, é Ciência no português.", 1, "Marie");
+	ds_grid_add_text("O papel da Ciência é pesquisar e desvendar os mistérios do mundo, o que é essencial para entendermos como e por que cada coisa existe.", 1, "Marie");
+	
 }
 }
 

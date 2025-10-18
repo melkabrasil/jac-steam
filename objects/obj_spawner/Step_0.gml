@@ -1,5 +1,6 @@
 spawn_timer--;
 
+if (global.atomos_coletados < 7) {
 if (spawn_timer <= 0 && !global.portal_ativo) {
     // Resetar timer
     spawn_timer = spawn_time;
@@ -17,7 +18,7 @@ show_debug_message("Spawnando: " + string(obj_to_spawn));
     // Cria o obstáculo na layer "Instances" (ou a layer da sua room)
     instance_create_layer(sx, sy, "Instances", obj_to_spawn);
 }
-
+}
 /*if (!global.portal_ativo) {
     // lógica de spawn
     var yy = irandom_range(64, room_height - 64);
