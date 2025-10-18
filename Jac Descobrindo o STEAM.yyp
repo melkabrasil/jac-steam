@@ -48,7 +48,6 @@
   },
   "name":"Jac Descobrindo o STEAM",
   "resources":[
-    {"id":{"name":"fnt_menu_1","path":"fonts/fnt_menu_1/fnt_menu_1.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
     {"id":{"name":"obj_asteroide_1","path":"objects/obj_asteroide_1/obj_asteroide_1.yy",},},
@@ -107,7 +106,7 @@
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_clouda","path":"sprites/spr_clouda/spr_clouda.yy",},},
     {"id":{"name":"spr_colorjac","path":"sprites/spr_colorjac/spr_colorjac.yy",},},
-    {"id":{"name":"spr_embtech","path":"sprites/spr_embtech/spr_embtech.yy",},},
+    {"id":{"name":"spr_emblema_tech","path":"sprites/spr_emblema_tech/spr_emblema_tech.yy",},},
     {"id":{"name":"spr_engineering","path":"sprites/spr_engineering/spr_engineering.yy",},},
     {"id":{"name":"spr_engrea","path":"sprites/spr_engrea/spr_engrea.yy",},},
     {"id":{"name":"spr_engrenagens","path":"sprites/spr_engrenagens/spr_engrenagens.yy",},},
