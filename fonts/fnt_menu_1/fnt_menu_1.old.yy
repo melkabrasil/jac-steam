@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_menu",
+  "%Name":"fnt_menu_1",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":26,
@@ -213,7 +213,7 @@
   "last":0,
   "lineHeight":32,
   "maintainGms1Font":false,
-  "name":"fnt_menu",
+  "name":"fnt_menu_1",
   "parent":{
     "name":"Fontes",
     "path":"folders/Fontes.yy",
