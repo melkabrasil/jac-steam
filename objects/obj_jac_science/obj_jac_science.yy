@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_jac",
+  "%Name":"obj_jac_science",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_jac",
+  "name":"obj_jac_science",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects Tech",
-    "path":"folders/Objetos/fases/Objects Tech.yy",
+    "name":"Objects Science",
+    "path":"folders/Objetos/fases/Objects Science.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"spr_jac_walk_1",
+    "path":"sprites/spr_jac_walk_1/spr_jac_walk_1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
