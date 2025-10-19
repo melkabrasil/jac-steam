@@ -33,6 +33,7 @@ if (room == a_menu) {
     var qualquer_botao = 
                          mouse_check_button_pressed(mb_right) ||
                          mouse_check_button_pressed(mb_middle) ||
+						 mouse_check_button_pressed(mb_left) ||
                          gamepad_button_check_pressed(0, gp_face1) ||
                          gamepad_button_check_pressed(0, gp_face2) ||
                          gamepad_button_check_pressed(0, gp_face3) ||
