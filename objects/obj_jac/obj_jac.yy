@@ -10,8 +10,8 @@
   "name":"obj_jac",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects Tech",
-    "path":"folders/Objetos/fases/Objects Tech.yy",
+    "name":"fases",
+    "path":"folders/Objetos/fases.yy",
   },
   "parentObjectId":null,
   "persistent":false,

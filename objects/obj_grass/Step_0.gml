@@ -7,11 +7,11 @@ var largura = string_width(texto) * escala_atual;
 var altura = string_height(texto) * escala_atual;
 
 // Verifica se o mouse está sobre o texto deslocado
-mouse_sobre = (mx > x - 200) && (mx < x - 200 + largura) &&
-              (my > y + 80) && (my < y + altura + 80);
+mouse_sobre = (mx > x - 520) && (mx < x - 520 + largura) &&
+              (my > y + 410) && (my < y + altura + 410);
 
 // Define a escala alvo com base no mouse
-escala_alvo = mouse_sobre ? 1.5 : 1.0;
+escala_alvo = mouse_sobre ? 1.0 : 0.9;
 
 // Suaviza a transição com lerp
 escala_atual = lerp(escala_atual, escala_alvo, 0.2);

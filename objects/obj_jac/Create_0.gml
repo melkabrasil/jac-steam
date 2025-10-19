@@ -19,3 +19,4 @@ x_inicial = x;
 y_inicial = y;
 contador_z = 0;
 contador_space = 0;
+escala = 1;
