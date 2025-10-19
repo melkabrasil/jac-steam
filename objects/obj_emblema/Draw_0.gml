@@ -8,12 +8,11 @@ for (var i = 0; i < array_length(confetes); i++) {
 draw_set_alpha(fade_alpha);
 
     if room == emblematech{
-	   draw_text(display_get_width()/2 - 150, display_get_height()/2 - 300, "    Parabéns, você completou a fase");
-	   draw_text(display_get_width()/2 - 150, display_get_height()/2 - 260, "                     Technology!");
+	   draw_sprite(emb_tech, 0, x +870, y - 60);
 	   } 
 		
 	if room == emblemaarts {
-	   draw_text(display_get_width()/2 - 150, display_get_height()/2 - 300, "Parabéns, você completou a fase Arts!");
+	   draw_sprite(emb_arts, 0, x +870, y - 60);
 	}
 		
 	if room == emblemascience {
