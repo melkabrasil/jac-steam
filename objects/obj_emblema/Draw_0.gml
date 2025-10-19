@@ -22,6 +22,10 @@ draw_set_alpha(fade_alpha);
 	if (room == g_math || room == e_engineering) {
     draw_sprite(spr_voltar, 0, x, y);
 }
+
+	if (room == h_creditos) {
+    draw_sprite(spr_blackvoltar, 0, x, y);
+}
 	 
 
 

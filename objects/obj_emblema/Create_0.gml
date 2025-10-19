@@ -4,7 +4,7 @@ botao_visivel = false;
 fade_alpha = 0; // começa invisível
 fade_vel = 0.02;
 confetes = [];
-if (room = g_math or room = e_engineering) {
+if (room == g_math || room == e_engineering || room == h_creditos) {
     var bx = x;
     var by = y;
     var bw = sprite_get_width(spr_botao);

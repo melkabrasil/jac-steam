@@ -33,8 +33,8 @@ if (dentro && (mouse_clicado || pad_clicado)) {
 
     var bx1 = display_get_width()/2 - 630;
     var bx2 = display_get_width()/2 - 450;
-    var by1 = display_get_height()/2 + 100;
-    var by2 = display_get_height()/2 + 140;
+    var by1 = display_get_height()/2 + 180;
+    var by2 = display_get_height()/2 + 220;
 
     if (mouse_check_button_pressed(mb_left)) {
         if (mx > bx1 && mx < bx2 && my > by1 && my < by2) {

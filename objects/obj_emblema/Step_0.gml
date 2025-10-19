@@ -35,7 +35,7 @@ if (botao_visivel) {
 }
 
 
-if (room = g_math or room = e_engineering) {
+if (room == g_math || room == e_engineering || room == h_creditos) {
     var bx = x;
     var by = y;
     var bw = sprite_get_width(spr_botao);
@@ -46,5 +46,15 @@ if (room = g_math or room = e_engineering) {
 
     var mouse_sobre = (mx > bx && mx < bx + bw && my > by && my < by + bh);
 
-    if (mouse_sobre && mouse_check_button_pressed(mb_left)) {
-        room_goto(b_fases);}}
+    if (mouse_sobre &&  (mouse_check_button_pressed(mb_left) ||
+                    mouse_check_button_pressed(mb_right) ||
+                    mouse_check_button_pressed(mb_middle)||
+					gamepad_button_check_pressed(0, gp_face1) ||
+					gamepad_button_check_pressed(0, gp_face2) ||
+    				gamepad_button_check_pressed(0, gp_face3) ||
+    				gamepad_button_check_pressed(0, gp_face4))) {
+						
+						if room == h_creditos{
+        room_goto(a_menu);} else { room_goto(b_fases); }}}
+		
+		

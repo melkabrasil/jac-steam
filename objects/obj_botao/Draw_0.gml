@@ -8,8 +8,8 @@ if room = b_fases {
 if (botao_visivel) {
     var bx1 = display_get_width()/2 - 630;
     var bx2 = display_get_width()/2 - 450;
-    var by1 = display_get_height()/2 + 100;
-    var by2 = display_get_height()/2 + 140;
+    var by1 = display_get_height()/2 + 180;
+    var by2 = display_get_height()/2 + 220;
 
     draw_set_color(c_orange);
     draw_set_alpha(1);
@@ -21,6 +21,6 @@ if (botao_visivel) {
 
 // Sprite informativo
 if (mostrar_sprite && sprite_mostrar != noone) {
-    draw_sprite(sprite_mostrar, 0, display_get_width()/20 - 96, display_get_height()/2 - 540);
+    draw_sprite(sprite_mostrar, 0, display_get_width()/2 - 768, display_get_height()/2 - 433);
 }
 	 }}
