@@ -18,5 +18,6 @@ vel_y = 0;
 x_inicial = x;
 y_inicial = y;
 contador_z = 0;
-image_xscale = 2; // dobra a largura
+contador_space = 0;
+image_xscale = 4; // dobra a largura
 image_yscale = 2; // dobra a altura

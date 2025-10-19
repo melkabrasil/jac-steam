@@ -10,3 +10,6 @@ if (distance_to_object(obj_par_npcs) <= 10) {
         }
     
 }
+	if (contador_space = 6) { 
+room_goto(emblemascience);
+	}

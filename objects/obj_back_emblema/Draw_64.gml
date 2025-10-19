@@ -10,7 +10,6 @@ for (var i = 0; i < array_length(confetes); i++) {
 
 //  Texto à direita
 draw_set_color(c_white);
-draw_set_font(fnt_menu_1)
 draw_set_alpha(fade_alpha);
 draw_text(display_get_width()/2 - 150, display_get_height()/2 + 40, "Parabéns, você completou a fase Technology!");
 

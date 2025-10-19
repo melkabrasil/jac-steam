@@ -52,6 +52,11 @@ if (distance_to_object(obj_par_npcs) <= 10 && keyboard_check_pressed(ord("Z"))) 
     contador_z = 0;
 }
 
+// Contador de interações com NPCs
+if (distance_to_object(obj_par_npcs) <= 10 && keyboard_check_pressed(vk_space)) {
+    contador_space += 1;
+}
+
 // Gravidade
 vel_y += gravidade;
 
