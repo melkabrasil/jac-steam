@@ -4,7 +4,20 @@ botao_visivel = false;
 fade_alpha = 0; // começa invisível
 fade_vel = 0.02;
 confetes = [];
+if (room = g_math or room = e_engineering) {
+    var bx = x;
+    var by = y;
+    var bw = sprite_get_width(spr_botao);
+    var bh = sprite_get_height(spr_botao);
 
+    var mx = mouse_x;
+    var my = mouse_y;
+
+    var mouse_sobre = (mx > bx && mx < bx + bw && my > by && my < by + bh);
+
+    if (mouse_sobre && mouse_check_button_pressed(mb_left)) {
+        room_goto(b_fases);
+	}} else {
 for (var i = 0; i < 100; i++) {
     var _cor;
     var escolha = irandom(2);
@@ -31,4 +44,4 @@ for (var i = 0; i < 100; i++) {
     };
 
     array_push(confetes, novo_confete);
-}
+}}

@@ -1,4 +1,7 @@
 // Fade-in progressivo
+
+
+
 if (fade_alpha < 1) {
     fade_alpha += fade_vel;
 } else {
@@ -16,17 +19,32 @@ for (var i = 0; i < array_length(confetes); i++) {
 }
 
 if (botao_visivel) {
+    var bx = x + 970;
+    var by = y + 400;
+    var bw = sprite_get_width(spr_botao);
+    var bh = sprite_get_height(spr_botao);
+
     var mx = mouse_x;
     var my = mouse_y;
 
-    var bx1 = display_get_width()/2 - 1;
-    var bx2 = display_get_width()/2 + 200;
-    var by1 = display_get_height()/2 + 100;
-    var by2 = display_get_height()/2 + 140;
+    var mouse_sobre = (mx > bx && mx < bx + bw && my > by && my < by + bh);
 
-    if (mouse_check_button_pressed(mb_left)) {
-        if (mx > bx1 && mx < bx2 && my > by1 && my < by2) {
-            room_goto(b_fases);
-        }
+    if (mouse_sobre && mouse_check_button_pressed(mb_left)) {
+        room_goto(b_fases);
     }
 }
+
+
+if (room = g_math or room = e_engineering) {
+    var bx = x;
+    var by = y;
+    var bw = sprite_get_width(spr_botao);
+    var bh = sprite_get_height(spr_botao);
+
+    var mx = mouse_x;
+    var my = mouse_y;
+
+    var mouse_sobre = (mx > bx && mx < bx + bw && my > by && my < by + bh);
+
+    if (mouse_sobre && mouse_check_button_pressed(mb_left)) {
+        room_goto(b_fases);}}

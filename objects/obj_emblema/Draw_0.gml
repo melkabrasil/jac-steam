@@ -1,5 +1,5 @@
 
-// Confetes
+
 for (var i = 0; i < array_length(confetes); i++) {
     draw_set_alpha(fade_alpha);
     draw_set_color(confetes[i]._cor);
@@ -18,30 +18,16 @@ draw_set_alpha(fade_alpha);
 	if room == emblemascience {
 	   draw_sprite(emb_sc, 0, x +870, y - 60);
 	}
+	
+	if (room == g_math || room == e_engineering) {
+    draw_sprite(spr_voltar, 0, x, y);
+}
 	 
 
 
 // Botão central
 if (botao_visivel) {
-    var bx1 = display_get_width()/2 -1;
-    var bx2 = display_get_width()/2 + 200;
-    var by1 = display_get_height()/2 + 100;
-    var by2 = display_get_height()/2 + 140;
-
-    if room == emblematech or room == emblemascience{
-	   draw_set_color(c_orange);
-	   
-	} else {  
-		
-	if room == emblemaarts {
-	   draw_set_color(c_navy);
-	}
-	   }
-	
-    draw_set_alpha(fade_alpha);
-    draw_roundrect(bx1, by1, bx2, by2, false);
-	draw_set_font(fnt_menu)
-    draw_set_color(c_white);
-    draw_set_halign(fa_center);
-    draw_text(display_get_width()/2 + 100, (by1 + by2)/2, "Continuar");
+	 draw_sprite(spr_botao, 0, x +970, y + 400);
 }
+
+
