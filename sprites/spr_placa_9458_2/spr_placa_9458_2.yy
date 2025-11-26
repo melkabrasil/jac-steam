@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_placa_9458_2",
   "bboxMode":0,
   "bbox_bottom":125,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5dc1a291-3323-4e30-a3d2-8d96612c340b","name":"5dc1a291-3323-4e30-a3d2-8d96612c340b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5dc1a291-3323-4e30-a3d2-8d96612c340b","name":"5dc1a291-3323-4e30-a3d2-8d96612c340b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

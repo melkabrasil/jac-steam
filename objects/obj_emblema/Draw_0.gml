@@ -24,7 +24,7 @@ draw_set_alpha(fade_alpha);
 }
 
 	if (room == h_creditos) {
-    draw_sprite(spr_blackvoltar, 0, x, y);
+    draw_sprite(spr_blackvoltar, 0, x, y - 40);
 }
 	 
 

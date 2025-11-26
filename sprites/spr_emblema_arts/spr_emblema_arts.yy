@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_emblema_arts",
   "bboxMode":0,
   "bbox_bottom":767,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"692b425d-856a-42d9-8f6c-7fad3c9c9f58","name":"692b425d-856a-42d9-8f6c-7fad3c9c9f58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"692b425d-856a-42d9-8f6c-7fad3c9c9f58","name":"692b425d-856a-42d9-8f6c-7fad3c9c9f58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

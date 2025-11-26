@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_voltar",
   "bboxMode":0,
   "bbox_bottom":132,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9b22bf14-48d5-4bdc-bd18-d40486dbb7c8","name":"9b22bf14-48d5-4bdc-bd18-d40486dbb7c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b22bf14-48d5-4bdc-bd18-d40486dbb7c8","name":"9b22bf14-48d5-4bdc-bd18-d40486dbb7c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
