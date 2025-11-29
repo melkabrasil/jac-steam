@@ -16,7 +16,7 @@ if (botao_visivel) {
     draw_roundrect(bx1, by1, bx2, by2, false);
     draw_set_color(c_white);
     draw_set_halign(fa_center);
-    draw_text(display_get_width()/2 - 535, (by1 + by2)/2, "Continuar");
+    draw_text(display_get_width()/2 - 535, (by1 + by2)/2 - 12,"Continuar");
 }
 
 // Sprite informativo
