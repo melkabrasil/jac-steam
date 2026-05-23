@@ -16,6 +16,7 @@
     {"$GMFolder":"","%Name":"c_backscience","folderPath":"folders/Cenas/c_backscience.yy","name":"c_backscience","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"d_backtechnology","folderPath":"folders/Cenas/d_backtechnology.yy","name":"d_backtechnology","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"f_backarts","folderPath":"folders/Cenas/f_backarts.yy","name":"f_backarts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"g_backengineering","folderPath":"folders/Cenas/g_backengineering.yy","name":"g_backengineering","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Curvas da animação","folderPath":"folders/Curvas da animação.yy","name":"Curvas da animação","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Curvas da animação/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensões","folderPath":"folders/Extensões.yy","name":"Extensões","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -47,7 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Jac Descobrindo o STEAM",
   "resources":[
@@ -101,6 +102,7 @@
     {"id":{"name":"emblemascience","path":"rooms/emblemascience/emblemascience.yy",},},
     {"id":{"name":"emblematech","path":"rooms/emblematech/emblematech.yy",},},
     {"id":{"name":"f_arts","path":"rooms/f_arts/f_arts.yy",},},
+    {"id":{"name":"g_backMechanical","path":"rooms/g_backMechanical/g_backMechanical.yy",},},
     {"id":{"name":"g_math","path":"rooms/g_math/g_math.yy",},},
     {"id":{"name":"h_creditos","path":"rooms/h_creditos/h_creditos.yy",},},
     {"id":{"name":"textoscript","path":"scripts/textoscript/textoscript.yy",},},
@@ -114,6 +116,7 @@
     {"id":{"name":"spr_back_emblema","path":"sprites/spr_back_emblema/spr_back_emblema.yy",},},
     {"id":{"name":"spr_back_science","path":"sprites/spr_back_science/spr_back_science.yy",},},
     {"id":{"name":"spr_backmarie","path":"sprites/spr_backmarie/spr_backmarie.yy",},},
+    {"id":{"name":"spr_backMechanical","path":"sprites/spr_backMechanical/spr_backMechanical.yy",},},
     {"id":{"name":"spr_bill","path":"sprites/spr_bill/spr_bill.yy",},},
     {"id":{"name":"spr_blackvoltar","path":"sprites/spr_blackvoltar/spr_blackvoltar.yy",},},
     {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
@@ -183,6 +186,7 @@
     {"roomId":{"name":"emblemascience","path":"rooms/emblemascience/emblemascience.yy",},},
     {"roomId":{"name":"emblemaarts","path":"rooms/emblemaarts/emblemaarts.yy",},},
     {"roomId":{"name":"h_creditos","path":"rooms/h_creditos/h_creditos.yy",},},
+    {"roomId":{"name":"g_backMechanical","path":"rooms/g_backMechanical/g_backMechanical.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
