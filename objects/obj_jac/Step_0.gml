@@ -6,7 +6,7 @@ function colisao_obstaculo(x, y) {
 }
 
 #region Diálogo com NPCs
-if (distance_to_object(obj_par_npcs) <= 10) {
+if (room == d_technology && distance_to_object(obj_par_npcs) <= 10) {
     sprite_index = spr_jac_idle;
 
     if ((room == d_technology && star == 3) || room == c_lab_marie) {
@@ -71,6 +71,36 @@ if (room == c_lab_marie) {
     escala = 1;
 }
 
+////////////////////////////////////////////////////////////////
+// 1. Ajuste da escala
+if (room == e_engineering) {
+    escala = 2.5;
+} else {
+    escala = 1;
+}
+
+// Colisão para PEGAR as ferramentas
+// Se ele encostar no obj_tools e ainda NÃO estiver segurando
+if (place_meeting(x, y, obj_tools) && !segurando_ferramentas) {
+    segurando_ferramentas = true;
+    
+    // Destrói as ferramentas que estão no chão
+    with (instance_place(x, y, obj_tools)) {
+        instance_destroy();
+    }
+}
+
+// Controle do Sprite
+// Aqui você define a imagem dele baseado na variável
+if (segurando_ferramentas) {
+    // Substitua pelo nome exato da sprite dele segurando a chave
+    sprite_index = spr_jac_tools; 
+} else {
+    // Se não estiver segurando, usa o sprite normal
+    sprite_index = spr_jac_idle; 
+}
+
+//////////////////////////////////////////////////////////////////
 // Aplica escala e direção ao mesmo tempo
 image_xscale = escala * direcao;
 image_yscale = escala;
