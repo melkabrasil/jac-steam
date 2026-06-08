@@ -35,6 +35,13 @@ for (var i = 0; i < 100; i++) {
         case 1: _cor = c_white; break; // Branco
         case 2: _cor = c_blue; break; // Amarelo
     }}
+	
+	if room == emblemamath{
+		switch (escolha) {
+        case 0: _cor =c_navy; break; // Laranja
+        case 1: _cor = c_white; break; // Branco
+        case 2: _cor = c_blue; break; // Amarelo
+    }}
 
     var novo_confete = {
         x: irandom(display_get_width()),

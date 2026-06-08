@@ -36,8 +36,8 @@
   ],
   "name":"e_engineering",
   "parent":{
-    "name":"g_backengineering",
-    "path":"folders/Cenas/g_backengineering.yy",
+    "name":"e_backengineering",
+    "path":"folders/Cenas/e_backengineering.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

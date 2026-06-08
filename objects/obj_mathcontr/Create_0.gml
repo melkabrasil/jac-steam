@@ -31,8 +31,8 @@ generate_question();
 
 /// Script local: gerar pergunta e criar botões
 function generate_question() {
-    a = irandom_range(0, 20);
-    b = irandom_range(0, 20);
+    a = irandom_range(0, 10);
+    b = irandom_range(0, 10);
     correct_answer = a * b;
 
     var wrong1 = correct_answer + irandom_range(1, 10);

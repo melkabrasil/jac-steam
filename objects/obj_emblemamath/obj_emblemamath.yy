@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_continuar",
+  "%Name":"obj_emblemamath",
   "eventList":[],
   "managed":true,
-  "name":"obj_continuar",
+  "name":"obj_emblemamath",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Objects Math",
+    "path":"folders/Objetos/fases/Objects Math.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_botao",
-    "path":"sprites/spr_botao/spr_botao.yy",
+    "name":"emb_math",
+    "path":"sprites/emb_math/emb_math.yy",
   },
   "spriteMaskId":null,
   "visible":true,

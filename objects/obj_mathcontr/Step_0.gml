@@ -5,3 +5,7 @@ if (global.mlives <= 0) {
         generate_question();
     }
 }
+
+if (global.mscore >= 100) {
+	room_goto(emblemamath)
+}

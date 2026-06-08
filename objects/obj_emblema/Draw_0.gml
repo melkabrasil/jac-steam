@@ -19,12 +19,16 @@ draw_set_alpha(fade_alpha);
 	   draw_sprite(emb_sc, 0, x +870, y - 60);
 	}
 	
-	if (room == g_math || room == e_engineering) {
-    draw_sprite(spr_voltar, 0, x, y);
-}
+	if room == emblemamath {
+		draw_sprite(emb_math, 0, x + 870, y -60);
+	}
+
+	//if room == emblemaeng {
+	//   draw_sprite(emb_sc, 0, x +870, y - 60);
+	//}
 
 	if (room == h_creditos) {
-    draw_sprite(spr_blackvoltar, 0, x, y - 40);
+		draw_sprite(spr_blackvoltar, 0, x, y - 40);
 }
 	 
 

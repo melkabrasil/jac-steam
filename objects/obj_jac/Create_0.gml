@@ -1,4 +1,4 @@
-direcao = 1; // 1 = direita, -1 = esquerda
+   direcao = 1; // 1 = direita, -1 = esquerda
 giro_alvo = 85; // graus que você quer girar
 giro_total = 0;
 giro_velocidade =10; // graus por frame

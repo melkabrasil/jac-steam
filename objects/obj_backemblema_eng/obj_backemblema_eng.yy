@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_continuar",
+  "%Name":"obj_backemblema_eng",
   "eventList":[],
   "managed":true,
-  "name":"obj_continuar",
+  "name":"obj_backemblema_eng",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Objects Engineering",
+    "path":"folders/Objetos/fases/Objects Engineering.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_botao",
-    "path":"sprites/spr_botao/spr_botao.yy",
+    "name":"spr_backemblema_eng",
+    "path":"sprites/spr_backemblema_eng/spr_backemblema_eng.yy",
   },
   "spriteMaskId":null,
   "visible":true,

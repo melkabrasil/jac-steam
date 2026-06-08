@@ -23,8 +23,8 @@
   ],
   "name":"g_math",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"g_backmath",
+    "path":"folders/Cenas/g_backmath.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
